@@ -4,7 +4,7 @@ Feature: Ama
     Given Amazon home page is open
     And User search for : "Digital camera best seller"
     Then User select product with number 5
-    And Set selected product quantity to : 2
+    And Set selected product quantity to : 8
     Then Add product to Cart
     And Open Cart
     And Check cart Subtotal values
